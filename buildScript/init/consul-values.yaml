@@ -1,0 +1,16 @@
+client:
+  enabled: true
+#  grpc: true
+#  affinity: null
+ui:
+  enabled: true
+server:
+  replicas: 3
+#  bootstrapExpect: 3
+#  affinity: null
+#connectInject:
+#  enabled: false
+
+#global:
+#  domain: consul
+#  datacenter: minidc    # minikube环境，否则 datacenter: dc
